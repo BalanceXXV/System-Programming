@@ -1,20 +1,19 @@
 #!/bin/sh
 
-store_pid () {
-	if [ ! -w pid.file ]
-	then	
-		touch pid.file
-	fi
-	echo $$ > pid.file
+create_pid.file () {
+        if [ ! -w pid.file ]
+        then
+                touch pid.file
+        fi
 }
 check_pid () {
+	create_pid.file
 	read file < pid.file
 	status=$(echo $file | cut -f1 -d' ')
-	if [ "$status" == "ready" ]
+	if [ "$status" == "SYN" ]
 	then
 		partner=$(echo $file | cut -f2 -d" ")
-		store_pid
-		kill -USR1 $partner
+		echo "ACK $$" > pid.file
 		start="true"
 		line=0
 	fi
@@ -26,7 +25,7 @@ sing(){
 	count=0
 	if [ ${#turn[@]} -le 0 ]
 	then
-		kill -13 $partner
+		kill -USR2 $partner
 		exit
 	fi
 	while [ $count -lt ${#turn[@]} ] && [ "${turn[$count]}" != "1" ]
@@ -43,12 +42,13 @@ sing(){
 		fi
 	done
 	line=$(($count+$line))
-	kill -USR2 $partner
+	kill -USR1 $partner
 }
 
 trap "sing" USR1 
-start="false"
+trap "exit" USR2
 text="lyrics.txt"
+start="false"
 while [ 1 -gt 0 ]
 do
 	if [ $start ==  "false" ]

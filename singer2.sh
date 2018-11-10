@@ -5,13 +5,18 @@ ready () {
 	then
 		touch pid.file
 	fi
-	echo "ready $$" > pid.file
+	echo "SYN $$" > pid.file
 }
-check_pid(){
-	read -r file < pid.file
-	partner=$file
-	line=0
-	kill -USR1 $partner
+check_pid () {
+        read file < pid.file
+        status=$(echo $file | cut -f1 -d' ')
+        if [ "$status" == "ACK" ]
+        then
+		partner=$(echo $file | cut -f2 -d" ")
+                kill -USR1 $partner
+                start="true"
+                line=0
+        fi
 }
 sing(){        
 	IFS=$'\n'
@@ -20,7 +25,7 @@ sing(){
         count=0
 	if [ ${#turn[@]} -le 0 ]
         then	
-		kill -13 $partner
+		kill -USR2 $partner
                 exit
         fi
         while [ $count -lt ${#turn[@]} ] && [ "${turn[$count]}" != "2" ]
@@ -41,12 +46,17 @@ sing(){
         kill -USR1 $partner
 }
 
-trap "check_pid" USR1
-trap "sing" USR2
+trap "sing" USR1
+trap "exit" USR2
 text="lyrics.txt"
+start="false"
 ready
 while [ 1 -gt 0 ]
 do
+        if [ $start ==  "false" ]
+        then
+                check_pid
+        fi
 	echo ...
 	sleep 1
 done
