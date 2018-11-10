@@ -1,0 +1,87 @@
+1$I guess I'll have to shut you down for good this time,
+1$Already tried a SIGQUIT, so now it's KILL DASH 9.
+1$You gotta learn when it's time for your thread to yield;
+1$It shoulda slept; instead you stepped and now your fate is sealed.
+1$I'll take your process off the run queue without even asking
+1$'Cause my flow is like reentrant and preemptive multitasking.
+1$Your sad rhymes are spinnin' like you're in a deadlock,
+1$You're like a synchronous sock that don't know when to block;
+1$So I pull out my keyboard and I pull out my glock,
+1$And I dismount your girl and I mount /proc
+1$And I've got your fuckin pid and the bottom line
+1$Is that you best not front or else it's KILL DASH NINE.
+
+1$KILL DASH NINE,
+2$No more CPU time.
+1$I run KILL DASH NINE,
+2$And your process is mine.
+1$I run KILL DASH NINE,
+2$'Cause it's MY time to shine
+1$So don't step outta line or else it's
+2$KILL DASH NINE!
+
+2$See it ain't about the Benjamins or Pentiums or Athlons,
+2$But you rappin' 50 meters while I'm spittin' in decathlons.
+2$Your shit's old and busted, mine's the new hotness;
+2$You're like CLR and I'm like CLRS.
+2$You're running csh and my shell is bash,
+2$You're the tertiary storage; I'm the L1 cache.
+2$I'm a web crawling spider; you an Internet mosquito;
+2$You thought the 7-layer model referred to a burrito.
+2$You're a dialup connection; I'm a gigabit LAN.
+2$I last a mythical man-month; you a one-minute man.
+2$It's like I'm running Thunderbird and you're still stuck with Pine,
+2$Which is why I think it's time for me to KILL DASH NINE.
+
+1$Yeah it's KILL DASH NINE
+2$No more CPU time.
+1$'Cause it's KILL DASH NINE,
+2$And your process is mine.
+1$I said KILL DASH NINE
+2$'Cause it's my time to shine,
+1$So don't step outta line or else it's
+2$KILL DASH NINE!
+
+1$My posse throws down like leaky bucket regulators;
+1$I was coding shit in MIPS while you were playing Space Invaders.
+1$With my finger on the trigger I run ./configure
+1$Yo, this package is big, but MY package is bigger.
+1$I roll my weed with Zig Zag while I zag-zig splay,
+1$And I do a bounds check before I write to an array.
+1$I'm a loc'd out baller writing KLOCS a day,
+1$'Cause it's publish or perish, fool, what can I say?
+1$I'm 26 now, will I live to see 28?
+1$Some days I wonder if I'll survive to graduate.
+1$But hey, that's just fine, I won't ever resign,
+1$And if fools try to step then it's KILL DASH NINE!
+
+1$Yeah it's KILL DASH NINE,
+2$From my command line
+1$It's KILL DASH NINE
+2$Sending chills down your spine,
+1$I said KILL DASH NINE,
+2$'Cause it's my time to shine,
+1$So don't step outta line or else it's
+2$KILL DASH NINE!
+
+2$fs sa rlidwka
+2$I'll chown your home and take your access away
+2$Comin' straight outta Stanford, ain't nobody tougher,
+2$Control-X, Control-C, I'll discard your fuckin' buffer.
+2$You're outside your scope, son, close them curly brackets,
+2$'Cause I drop punk-ass bitches like a modem drops packets.
+2$Dump your motherfucking core, and trace your stack
+2$'Cause where your ass is going, there won't be no callback.
+2$See my style is divine and my code is sublime,
+2$My career's in a climb and yours is in a decline.
+2$I'll write a pound-define and assign you as mine,
+2$So refine those sad rhymes or remove your plus signs,
+
+1$Or it's KILL DASH NINE,
+2$No more CPU time,
+1$'Cause it's KILL DASH NINE,
+2$And your process is mine,
+1$I said KILL DASH NINE
+2$'Cause it's my time to shine,
+1$Bitch you stepped outta line and now it's 
+2$KILL DASH NINE!
